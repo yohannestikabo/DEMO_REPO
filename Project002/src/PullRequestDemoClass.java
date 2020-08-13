@@ -4,6 +4,6 @@ public class PullRequestDemoClass {
 		// TODO Auto-generated constructor stub
 	}
 	public static void firstMethod() {
-		//1stcommit -Feature 1 eclipse
+		//2nd commit -Feature 1 eclipse
 	}
 }
