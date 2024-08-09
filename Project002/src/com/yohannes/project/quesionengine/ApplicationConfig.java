@@ -12,6 +12,7 @@ public class ApplicationConfig extends Application {
 public Set<Class<?>> getClasses() {
 	 //feature 838
 	 Set<Class<?>> s = new HashSet<Class<?>>();
+	 //feature 840 changes
      s.add(QuestionServer.class);
      s.add(SubjectServer.class);
      s.add(MenuServer.class);
