@@ -8,7 +8,7 @@ import javax.ws.rs.core.Application;
 
 @ApplicationPath("/*")
 public class ApplicationConfig extends Application {
-//Comment Added at 08/09 7:40
+//Comment 1
  @Override
 public Set<Class<?>> getClasses() {
 	 Set<Class<?>> s = new HashSet<Class<?>>();
