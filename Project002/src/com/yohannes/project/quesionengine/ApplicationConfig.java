@@ -10,6 +10,7 @@ import javax.ws.rs.core.Application;
 public class ApplicationConfig extends Application {
  @Override
 public Set<Class<?>> getClasses() {
+	 //feature 838
 	 Set<Class<?>> s = new HashSet<Class<?>>();
      s.add(QuestionServer.class);
      s.add(SubjectServer.class);
